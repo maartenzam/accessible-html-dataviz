@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Webdev 101</title>
+  </head>
+  <body>
+    <h1>Inputs</h1>
+		<p>Below is an HTML form with different types of inputs and a button to submit the inputted information.</p>
+        <form>
+
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" min="1" max="100"><br><br>
+
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday" value="1980-01-01" min="1900-01-01" max="2021-12-31"><br><br>
+
+            Favorite language:<br>
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">HTML</label><br>
+            <input type="radio" id="css" name="fav_language" value="CSS">
+            <label for="css">CSS</label><br>
+            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+            <label for="javascript">JavaScript</label><br><br>
+
+            Accessibility is:<br>
+            <input type="checkbox" id="difficult" name="difficult" value="Difficult" checked>
+            <label for="difficult"> difficult</label><br>
+            <input type="checkbox" id="interesting" name="interesting" value="Interesting" checked>
+            <label for="interesting"> interesting</label><br>
+            <input type="checkbox" id="important" name="important" value="Important" checked>
+            <label for="important"> important</label><br><br>
+
+        </form><br>
+
+        <button onclick="displayAlert()">Click to submit</button>
+
+        <script>
+            function displayAlert() {
+              alert("This is just an example form and inputs, no data is sent to any server.");
+            }
+            </script>
+  </body>
+</html>

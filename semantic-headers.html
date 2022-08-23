@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Accessible HTML</title>
+    <style>
+        .header2 {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        .list-item {
+            margin-left: 20px;
+            line-height: 0.2;
+        }
+    </style>
+  </head>
+  <body>
+    <h1>Semantic headers</h1>
+		<h2>Importance of semantic headers</h2>
+        <p>Semantic headers are important for browsing pages with a screen reader.<p>
+        <h2>Using semantic headers</h2>
+        <p>Using semantic headers simply means using the h1 to h6 tags.</p>
+        <div class="header2">Avoiding minicking headers</div>
+        <p>The header above looks like a header, but it is not a semantic header. As a result, it is not picked up by screen readers.</p>
+        <div class="header2">Semantic lists</div>
+        <p>This is a semantic HTML list of the steps to use semantic HTML:</p>
+        <ol>
+            <li>Use button tags for buttons</li>
+            <li>Use header tags for headers</li>
+            <li>Use list tags for lists</li>
+        </ol>
+        <p>The wrong way to do this:</p>
+        <p class="list-item">1. Use div tags and styling to mimick buttons</p>
+        <p class="list-item">2. Use div tags and styling to mimick headers</p>
+        <p class="list-item">3. Use div tags and styling to mimick lists</p>
+  </body>
+</html>

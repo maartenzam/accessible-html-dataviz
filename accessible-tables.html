@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Accessible HTML</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 3px;
+            text-align: right;
+        }
+    </style>
+  </head>
+  <body>
+    <h1>Accessible tables</h1>
+
+    <p>To make the data in a visualisation more accessible, you can present the data shown as a table.</p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/Playfair_TimeSeries-1.png" width="600" title="Exports and imports to and from Denmark & Norway from 1700 to 1780" alt="A line chart showing Englands exports and imports to and from Denmark and Norway between 1700 and 1780. The trade balance shifts from against England to in favour of it in 1755, after which the exports become double the amount of the imports. The chart is the first line chart ever made and was created by William Playfair and published in his Commercial and Political Atlas in 1786."/>
+
+    <table>
+        <caption>5-yearly import and export numbers between England and Denmark and Norway</caption>
+        <thead>
+            <tr>
+                <th scope="col">Year</th>
+                <th scope="col">Import</th>
+                <th scope="col">Export</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1700</td>
+                <td>71</td>
+                <td>33</td>
+            </tr>
+            <tr>
+                <td>1705</td>
+                <td>75</td>
+                <td>41</td>
+            </tr>
+            <tr>
+                <td>1710</td>
+                <td>83</td>
+                <td>59</td>
+            </tr>
+            <tr>
+                <td>1715</td>
+                <td>87</td>
+                <td>78</td>
+            </tr>
+            <tr>
+                <td>1720</td>
+                <td>97</td>
+                <td>75</td>
+            </tr>
+            <tr>
+                <td>1725</td>
+                <td>103</td>
+                <td>71</td>
+            </tr>
+            <tr>
+                <td>1730</td>
+                <td>96</td>
+                <td>75</td>
+            </tr>
+            <tr>
+                <td>1735</td>
+                <td>94</td>
+                <td>61</td>
+            </tr>
+            <tr>
+                <td>1740</td>
+                <td>93</td>
+                <td>65</td>
+            </tr>
+            <tr>
+                <td>1745</td>
+                <td>93</td>
+                <td>74</td>
+            </tr>
+            <tr>
+                <td>1750</td>
+                <td>90</td>
+                <td>77</td>
+            </tr>
+            <tr>
+                <td>1755</td>
+                <td>80</td>
+                <td>83</td>
+            </tr>
+            <tr>
+                <td>1760</td>
+                <td>77</td>
+                <td>118</td>
+            </tr>
+            <tr>
+                <td>1765</td>
+                <td>80</td>
+                <td>152</td>
+            </tr>
+            <tr>
+                <td>1770</td>
+                <td>84</td>
+                <td>164</td>
+            </tr>
+            <tr>
+                <td>1775</td>
+                <td>90</td>
+                <td>176</td>
+            </tr>
+            <tr>
+                <td>1780</td>
+                <td>93</td>
+                <td>185</td>
+            </tr>
+        </tbody>
+    </table>
+
+  </body>
+</html>
